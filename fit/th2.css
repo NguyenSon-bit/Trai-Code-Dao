@@ -1,0 +1,408 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 1200px;
+  margin: auto;
+  padding: 5px;
+}
+
+.introduce {
+  color: rgb(0, 179, 255);
+  font-size: 33px;
+  margin: 5px;
+  padding: 5px;
+}
+.header {
+  display: flex;
+  background-color: black;
+  margin: 5px;
+  padding: 5px;
+  width: 100%;
+  height: 35px;
+}
+.ver1 a {
+  color: #ffffffff;
+  position: relative;
+  font-size: 16px;
+  text-decoration: none;
+  margin: 30px;
+  font-weight: 500;
+}
+.ver1 a::after {
+  content: "";
+  left: 0;
+  bottom: -6px;
+  width: 100%;
+  height: 2px;
+  position: absolute;
+  background: #ffffffff;
+  border-radius: 5px;
+  transform: translateY(10px);
+  opacity: 0;
+  transition: 0.5s;
+}
+.ver1 a:hover::after {
+  transform: translateY(0);
+  opacity: 1;
+}
+.img img {
+  height: 100%;
+  width: 100%;
+  margin: 5px;
+  padding: 5px;
+}
+.footer {
+  display: flex;
+}
+.footer1 {
+  width: 65%;
+  margin: 5px;
+  padding: 5px;
+}
+.footer11 {
+  color: #ffffffff;
+  font-weight: bold;
+  width: 30%;
+  background-color: rgb(199, 66, 17);
+  align-content: center;
+  height: 40px;
+  padding: 8px;
+}
+.footer12 {
+  width: 94%;
+  background-color: rgb(199, 66, 17);
+  height: 5px;
+  margin: 2px;
+}
+.footer13 {
+  display: flex;
+  width: 100%;
+}
+.footer131 {
+  width: 40%;
+  margin: 10px;
+}
+.footer131 img {
+  width: 100%;
+}
+.footer131 a {
+  position: relative;
+  color: black;
+  font-size: 15px;
+  text-decoration: none;
+}
+.footer132 {
+  width: 60%;
+  margin: 10px;
+}
+.footer1321 {
+  width: 20%;
+}
+
+.footer13211 {
+  width: 70%;
+  font-size: 14px;
+}
+.footer1322 {
+  width: 20%;
+}
+.footer13222 {
+  width: 70%;
+  font-size: 14px;
+}
+.footer1323 {
+  width: 20%;
+}
+.footer13233 {
+  width: 70%;
+  font-size: 14px;
+}
+.footer1324 {
+  width: 20%;
+}
+.footer13244 {
+  width: 70%;
+  font-size: 14px;
+}
+.footer2 {
+  width: 35%;
+  margin: 5px;
+  padding: 5px;
+}
+.footer21 {
+  align-content: center;
+  font-weight: bold;
+  color: #ffffffff;
+  background-color: rgb(72, 72, 255);
+  height: 40px;
+  padding: 8px;
+  width: 100%;
+}
+.footer22 {
+  align-content: left;
+  padding: 10px;
+  margin: 10px;
+}
+.foot {
+  display: flex;
+}
+.foot1 {
+  width: 65%;
+  margin: 5px;
+  padding: 5px;
+}
+.foot11 {
+  color: #ffffffff;
+  font-weight: bold;
+  width: 30%;
+  background-color: rgb(235, 70, 10);
+  align-content: center;
+  height: 40px;
+  padding: 8px;
+}
+.foot12 {
+  width: 94%;
+  background-color: rgb(235, 70, 10);
+  height: 5px;
+  margin: 2px;
+}
+.foot13 {
+  display: flex;
+  width: 100%;
+}
+.foot131 {
+  text-align: center;
+}
+.foot131 a {
+  text-decoration: none;
+  color: green;
+}
+.foot132 {
+  text-align: center;
+
+  width: 100%;
+}
+.foot132 a {
+  text-decoration: none;
+  color: blue;
+}
+.foot14 {
+  display: flex;
+  width: 100%;
+}
+.foot141 {
+  text-align: center;
+}
+.foot141 a {
+  text-decoration: none;
+  color: green;
+}
+.foot142 {
+  text-align: center;
+  width: 100%;
+}
+.foot142 a {
+  text-decoration: none;
+  color: blue;
+}
+.foot2 {
+  width: 35%;
+  margin: 5px;
+  padding: 5px;
+}
+.foot21 {
+  background-color: rgb(199, 66, 17);
+  height: 40px;
+  align-content: center;
+  font-weight: bold;
+  padding: 8px;
+  width: 100%;
+  margin: 5px;
+}
+.foot21 a {
+  text-decoration: none;
+  color: #ffffffff;
+  position: relative;
+}
+.foot21 a::after {
+  content: "";
+  position: absolute;
+  bottom: -6px;
+  height: 2px;
+  width: 100%;
+  background: #ffffffff;
+  border-radius: 5px;
+  opacity: 0;
+  transition: 0.5s;
+  left: 0;
+  transform: translateY(10px);
+}
+.foot21 a:hover::after {
+  opacity: 1;
+  transform: translateY(0);
+}
+.foot22 {
+  background-color: rgba(0, 200, 255, 0.686);
+  height: 40px;
+  align-content: center;
+  font-weight: bold;
+  padding: 8px;
+  width: 100%;
+  margin: 5px;
+}
+.foot22 a {
+  text-decoration: none;
+  color: #ffffffff;
+  position: relative;
+}
+.foot22 a::after {
+  content: "";
+  position: absolute;
+  bottom: -6px;
+  height: 2px;
+  width: 100%;
+  background: #ffffffff;
+  border-radius: 5px;
+  opacity: 0;
+  left: 0;
+  transition: 0.5s;
+  transform: translateY(10px);
+}
+.foot22 a:hover::after {
+  transform: translateY(0);
+  opacity: 1;
+}
+.foot23 {
+  background-color: rgb(235, 176, 15);
+  height: 40px;
+  align-content: center;
+  padding: 8px;
+  margin: 5px;
+  font-weight: bold;
+  width: 100%;
+}
+.foot23 a {
+  text-decoration: none;
+  position: relative;
+  color: #ffffffff;
+}
+.foot23 a::after {
+  content: "";
+  position: absolute;
+  bottom: -6px;
+  width: 100%;
+  height: 2px;
+  left: 0;
+  transition: 0.5s;
+  border-radius: 5px;
+  background: #ffffffff;
+  transform: translateY(10px);
+  opacity: 0;
+}
+.foot23 a:hover::after {
+  transform: translateY(0);
+  opacity: 1;
+}
+.foot24 {
+  padding: 8px;
+  margin: 5px;
+  background-color: green;
+  height: 40px;
+  font-weight: bold;
+  width: 100%;
+  align-content: center;
+}
+.foot24 a {
+  text-decoration: none;
+  color: #ffffffff;
+  position: relative;
+}
+.foot24 a::after {
+  content: "";
+  bottom: -6px;
+  height: 2px;
+  border-radius: 5px;
+  position: absolute;
+  transition: 0.5s;
+  transform: translateY(10px);
+  opacity: 0;
+  left: 0;
+  background: #ffffffff;
+  width: 100%;
+}
+.foot24 :hover::after {
+  transform: translateY(0);
+  opacity: 1;
+}
+.foot25 {
+  background-color: blueviolet;
+  padding: 8px;
+  margin: 5px;
+  font-weight: bold;
+  align-content: center;
+  width: 100%;
+  height: 40px;
+}
+.foot25 a {
+  text-decoration: none;
+  color: #ffffffff;
+  position: relative;
+}
+.foot25 a::after {
+  content: "";
+  bottom: -6px;
+  position: absolute;
+  left: 0;
+  height: 2px;
+  border-radius: 5px;
+  background: #ffffffff;
+  width: 100%;
+  transition: 0.5s;
+  transform: translateY(10px);
+  opacity: 0;
+}
+.foot25 a:hover::after {
+  transform: translateY(0);
+  opacity: 1;
+}
+.foot26 {
+  background-color: blue;
+  font-weight: bold;
+  align-content: center;
+  width: 100%;
+  height: 40px;
+  padding: 8px;
+  margin: 5px;
+}
+.foot26 a {
+  text-decoration: none;
+  color: #ffffffff;
+  position: relative;
+}
+.foot26 a::after {
+  content: "";
+  bottom: -6px;
+  height: 2px;
+  left: 0;
+  background: #ffffffff;
+  position: absolute;
+  border: 5px;
+  width: 100%;
+  transition: 0.5s;
+  opacity: 0;
+  transform: translateY(10px);
+}
+.foot26 a:hover::after {
+  transform: translateY(0);
+  opacity: 1;
+}
+.foot27 {
+  padding: 10px;
+  margin: 10px;
+}
+.end {
+  background-color: rgb(173, 172, 172);
+  height: 110px;
+  width: 100%;
+  text-align: center;
+  align-content: center;
+}
